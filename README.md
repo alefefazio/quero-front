@@ -1,3 +1,3 @@
 # quero-front
 
-A Quero Education front test
+A Quero Education front-end test
