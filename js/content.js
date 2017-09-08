@@ -1,7 +1,7 @@
 var btnTask = document.getElementById("add-task");
 var btnClosePanel = document.getElementById("close-panel");
-var firstPanel = document.getElementsByClassName("firstPanel");
-var secondPanel = document.getElementsByClassName("secondPanel");
+var firstPanel = document.getElementsByClassName("first-panel");
+var secondPanel = document.getElementsByClassName("second-panel");
 var taskTitle = document.getElementsByClassName("task-title");
 var taskDescription = document.getElementsByClassName("task-description");
 var firstTask =  document.getElementsByClassName("first-task");
@@ -16,7 +16,7 @@ function showPanel(){
 
     firstPanel[0].style.width = '50%'
     firstPanel[0].style.float = 'left'
-    firstPanel[0].style.marginLeft = '30px'
+     firstPanel[0].style.left = '20px'
     
     secondPanel[0].style.display ='inline';
     secondPanel[0].style.float = 'right'
@@ -30,7 +30,6 @@ function closePanel(){
     firstPanel[0].style.width = '70%'
     firstPanel[0].style.margin = 'auto'
     firstPanel[0].style.float = 'none'
-    firstPanel[0].style.marginTop = '15px'
     
 }
 
