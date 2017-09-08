@@ -5,8 +5,14 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     </head>
 <body>
+    
   <div class="navbar">
     <ul>
+        <li>
+            <div class="menu">
+                |||
+            </div>
+        </li>
         <li>
            <a href="#">My Tasks</a>
         </li>  
@@ -17,7 +23,9 @@
             <div class="plus">+</div>
         </li>
         <li>
-            <input class="search" type="text" placeholder="Search">
+            <div class="input-icon">
+              <input class="search" type="text" placeholder="Search">
+            </div>
         </li>
         <li>
             <a href="#">Help</a>
@@ -26,44 +34,62 @@
             <a href="#">Personal Projects</a>
         </li>
         <li>
-            <img class="img-circle  img-small" src="img/profile.jpg">
+            
         </li>
     </ul>
+      
+  
   </div>
+        
   <div class="bottom-nav">
-        <h1><img class="img-circle img-medium" src="img/profile.jpg"> My Personal Tasks</h1>
+        <h1> My Personal Tasks</h1>
   </div>
-    <div class="container">
+    
+  <div class="container">
         <div class="first-panel">
             <div class="header-panel">
                 <button type="button" class="add-task" id="add-task">Add Task</button>
             </div>
+            
+            
+            
+            
             <div class="body-panel">
                 <ul>
                     <li class="first-task"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
                 </ul>
             </div>
         </div>
         <div class="second-panel">
-        <div class="header-panel">
-            <button type="button" class="close-panel" id="close-panel">x</button>
-           <h1> <img class="img-circle img-medium" src="img/profile.jpg">Steve Jobs</h1> 
-            
+            <div class="header-panel">
+                <ul>
+                    <li>
+                        <h1>Alefe Fazio</h1>
+                    </li>
+                    <li><h2>Due Date</h2>
+                    </li>
+                    <li>
+                        <div class="buttons">
+                            <a href="#" class="hearth"></a>
+                            <a href="#" class="tasks"></a>
+                            <a href="#" class="clip"></a>
+                            <a href="#" class="dots"></a>
+                        </div>
+                    </li>
+                    <li class="close-button"><a href="#" id="close-panel">x</a></li>
+                </ul>
+                
             </div>
             <div class="body-panel">
                <input class="task-title" type="text" placeholder="New Task">
                <input class="task-description" type="text" placeholder="Description">
-          </div>
-          <div class="bottom-panel">
-           <img class="img-circle img-medium" src="img/profile.jpg"> 
-              <input class="task-description" type="text" placeholder="Write a comment...">
-          </div>
+            </div>
+            <div class="bottom-panel">
+                <input class="task-description" type="text" placeholder="Write a comment...">
+            </div>
        </div>
-    </div>
-<script type="text/javascript" src="js/content.js"></script>
+ </div>
+    <script type="text/javascript" src="js/content.js"></script>
+
 </body>
 </html>
